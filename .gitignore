@@ -1,0 +1,13 @@
+*~
+*.swp
+*.log
+
+/docs/
+/socks/
+
+/__pycache__/
+
+/target/
+/Cargo.lock
+
+!.gitignore

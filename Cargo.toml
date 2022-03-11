@@ -1,0 +1,18 @@
+[package]
+name                   = "socks"
+version                = "0.0.1"
+edition                = "2021"
+
+authors                = ["Dmitry Ponyatov <dponyatov@gmail.com>"]
+description            = "Secure Open Cluster microKernel OS"
+
+[dependencies]
+tracing                = "*"
+tracing-subscriber     = "*"
+
+[target.'cfg(unix)'.dependencies]
+# libc                   = "*"
+# nix                    = "*"
+
+[target.'cfg(windows)'.dependencies]
+# windows                = "*"

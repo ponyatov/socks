@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "ryuta46.multi-command",
+        "stkb.rewrap",
+        "tabnine.tabnine-vscode",
+        // "auchenberg.vscode-browser-preview",
+        // "ms-vscode-remote.remote-ssh",
+        // "ms-azuretools.vscode-docker",
+        "tht13.python",
+        "rust-lang.rust",
+        "bungcip.better-toml",
+    ]
+}
